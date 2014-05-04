@@ -30,7 +30,7 @@
     for (BNRItem *temp in _containerItems) {
         x = x + temp.valueInDollars;
     }
-    x = x + _valueInDollars;
+//    x = x + _valueInDollars;
     return x;
 }
 // Override class description per book instructions
